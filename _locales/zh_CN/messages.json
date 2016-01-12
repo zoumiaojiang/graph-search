@@ -1,0 +1,14 @@
+{
+    "name": {
+        "message": "百度图像搜索",
+        "description": "百度图像搜索引擎"
+    },
+    "menuTitle": {
+        "message": "使用百度搜索此图",
+        "description": "在右键点击图片之后所展现的item话术"
+    },
+    "description": {
+        "message": "可以在任何页面中使用到的百度图像搜索引擎",
+        "description": "可以在任何页面中使用到的百度图像搜索引擎"
+    }
+}

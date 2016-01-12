@@ -1,0 +1,78 @@
+body {
+    overflow-x: hidden;
+}
+
+.cp-gs-wapper {
+    position: fixed;
+    font-size: 12px;
+    top: 5px;
+    right: -20000px;
+    width: 200px;
+    border: 1px solid #999;
+    background: #fff;
+    padding: 8px;
+    border-radius: 5px;
+    z-index: 999999990;
+    box-shadow: 2px 2px 5px #999;
+    line-height: normal;
+}
+.cp-gs-show {
+    right: 40px;
+}
+.cp-gs-main {
+    width: 100%;
+    height: 184px;
+    border: 1px dashed #999;
+    position: relative;
+    cursor: pointer;
+}
+.cp-gs-main p {
+    text-align: center;
+    position: absolute;
+    width: 100%;
+    bottom: 5px;
+    margin: 0;
+    font-size: 12px !important;
+}
+.cp-gs-main input {
+    opacity: 0;
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    cursor: pointer;
+}
+.cp-gs-mask {
+    position: fixed;
+    z-index: 999999991;
+    background: rgba(0, 0, 0, 0.5);
+    left: 0;
+    right: 0;
+    bottom: 0;
+    top: 0;
+}
+
+.cp-gs-loading {
+    width: 120px;
+    height: 120px;
+    background: #fff;
+    border-radius: 5px;
+    position: fixed;
+    z-index: 999999992;
+    left: 50%;
+    top: 50%;
+    margin-top: -60px;
+    margin-left: -60px;
+    text-align: center;
+    line-height: normal;
+}
+.cp-gs-loading p {
+    margin: 0;
+    font-size: 12px !important;
+}
+.cp-gs-loading img {
+    margin: 20px 0;
+    width: 50px;
+    height: 50px;
+}

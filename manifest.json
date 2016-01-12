@@ -1,0 +1,59 @@
+{
+    "manifest_version": 2,
+    "name": "__MSG_name__",
+    "version": "0.0.1",
+    "description": "__MSG_description__",
+    "author": "zoumiaojiang@gmail.com",
+
+    "default_locale": "zh_CN",
+
+    "offline_enabled": false,
+
+    "icons": {
+        "16": "./images/icons/16icon.png",
+        "48": "./images/icons/48icon.png",
+        "128": "./images/icons/128icon.png"
+    },
+
+    "permissions": [
+        "tabs",
+        "contextMenus",
+        "http://*/*",
+        "https://*/*"
+    ],
+
+    "web_accessible_resources": [
+        "images/loading.gif",
+        "images/upload.png"
+    ],
+
+    "background" : {
+        "scripts": [
+            "./script/jquery-1.10.2.min.js",
+            "./script/conf.js",
+            "./script/utils.js",
+            "./script/background.js"
+        ]
+    },
+
+    "content_scripts": [{
+        "matches": ["http://*/*", "https://*/*"],
+        "css": [
+            "./search/index.css"
+        ],
+        "js": [
+            "./script/jquery-1.10.2.min.js",
+            "./script/conf.js",
+            "./script/utils.js",
+            "./search/index.js"
+        ],
+        "all_frames": true
+    }],
+
+    "commands": {},
+
+    "browser_action": {
+        "default_icon": "./images/icons/default-icon.png",
+        "default_title": "__MSG_description__"
+    }
+} 

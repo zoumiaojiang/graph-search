@@ -1,0 +1,14 @@
+{
+    "name": {
+        "message": "Graph Search Of Baidu",
+        "description": "baidu graph search engine"
+    },
+    "menuTitle": {
+        "message": "Search this graph",
+        "description": "When you right click a image, you can search this image"
+    },
+    "description": {
+        "message": "You can use baidu graph search anywhere and anytime",
+        "description": "You can use baidu graph search anywhere and anytime"
+    }
+}
