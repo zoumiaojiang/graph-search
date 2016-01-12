@@ -28,9 +28,3 @@ $ git clone https://github.com/zoumiaojiang/graph-search.git
 
 选择`Step 1`中clone到的目录
 
-安装完之后，我们可以看到如下所示：
-![step4](http://boscdn.bpc.baidu.com/mms-res/amd/app.png)
-
-
-#### step 5
-
